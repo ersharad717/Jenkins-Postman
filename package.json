@@ -1,0 +1,12 @@
+{
+  "name": "jenkins-postman",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "scripts": {
+    "SIT-API-Test": "newman run testcycle/HMRC.postman_collection.json"
+  },
+  "author": "sharad kumar",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
